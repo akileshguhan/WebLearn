@@ -1,1 +1,21 @@
- 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.navbar-bottom h6 {
+  text-decoration: none;
+  padding: 5px 10px;
+}
